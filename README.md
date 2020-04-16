@@ -1,6 +1,6 @@
 # 📝 Docs Markdown
 
-Opinionated starter for server-side Node.js libraries, with [TypeScript](https://github.com/microsoft/TypeScript), tests with [Jest](https://github.com/facebook/jest), automated releases with [GitHub Actions](https://github.com/features/actions) and [Semantic Release](https://github.com/semantic-release/semantic-release), and coverage reporting from [Travis CI](https://travis-ci.org) to [Coveralls](https://coveralls.io).
+Convert a Google Docs file (API response) to Markdown
 
 [![Node CI](https://img.shields.io/github/workflow/status/AnandChowdhary/docs-markdown/Node%20CI?label=GitHub%20CI&logo=github)](https://github.com/AnandChowdhary/docs-markdown/actions)
 [![Travis CI](https://img.shields.io/travis/AnandChowdhary/docs-markdown?label=Travis%20CI&logo=travis%20ci&logoColor=%23fff)](https://travis-ci.org/AnandChowdhary/docs-markdown)
@@ -25,12 +25,22 @@ Install the package from [npm](https://www.npmjs.com/package/docs-markdown):
 npm install docs-markdown
 ```
 
-Import and use;
+Import and use:
 
 ```ts
-import { nodeTs } from "@anandchowdhary/node-ts";
+import { googleDocsToMarkdown } from "docs-markdown";
+import { google } from "googleapis";
+import { writeFileSync } from "fs";
+const oauth2Client = new google.auth.OAuth2(); // Authenticate
 
-nodeTs();
+const docs = google.docs("v1");
+const file = await docs.documents.get({
+  documentId: "Google Docs document ID",
+  auth: oauth2Client,
+});
+
+const markdown = googleDocsToMarkdown(file);
+writeFileSync("file.md", markdown);
 ```
 
 ## 👩‍💻 Development
