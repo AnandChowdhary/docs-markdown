@@ -43,6 +43,17 @@ const markdown = googleDocsToMarkdown(file);
 writeFileSync("file.md", markdown);
 ```
 
+## ⭐️ Features
+
+- [x] Paragraphs
+- [x] Headings, titles, subtitles
+- [x] Bold, italic
+- [x] Lists
+- [x] Links
+- [ ] Images
+- [ ] Tables
+- [ ] Header, footer
+
 ## 👩‍💻 Development
 
 Build TypeScript:
