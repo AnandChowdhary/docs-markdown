@@ -18,16 +18,16 @@ This is a normal paragraph but has extra features, like this **bold** word and t
 
 This is a paragraph after the H2. This is a [link](https://anandchowdhary.com) to my website.
 
-- This is a numbered list counting items
-- The second item has a **bold** word
-- The third one is right aligned
+1. This is a numbered list counting items
+1. The second item has a **bold** word
+1. The third one is right aligned
 
 Suspendisse at magna nec sapien consectetur interdum ac ac felis. Sed maximus felis leo, vitae gravida tortor molestie eget. Aliquam vehicula magna ipsum, ac tristique erat accumsan sit amet. Ut porta magna nulla, sed iaculis ex vestibulum in.
 
 - This is a normal list with hyphens
-- It has levels
-- Many levels
-- Not that many
+  - It has levels
+    - Many levels
+  - Not that many
 - Levels
 
 Integer elementum massa elit, eu gravida orci sodales eget. Mauris vestibulum libero a ex cursus gravida. Praesent auctor finibus sem, sed lobortis arcu. Aliquam vitae varius dui. Donec vitae massa pellentesque, imperdiet dolor in, tincidunt ipsum. Donec viverra, diam at tincidunt suscipit, libero dolor maximus quam, eu bibendum magna massa at quam. In non urna ipsum.

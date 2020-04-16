@@ -16,13 +16,14 @@ revisionId: ${file.revisionId}
       const bullet = (item.paragraph || {}).bullet || {};
       if (bullet.listId) {
         const listDetails = (file.lists || {})[bullet.listId];
-        if (
+        const glyphFormat =
           (((listDetails.listProperties || {}).nestingLevels || [])[0] || {})
-            .glyphFormat === "[%0]"
-        ) {
-          text += "1. ";
+            .glyphFormat || "";
+        const padding = "  ".repeat(bullet.nestingLevel || 0);
+        if (["[%0]", "%0."].includes(glyphFormat)) {
+          text += `${padding}1. `;
         } else {
-          text += "- ";
+          text += `${padding}- `;
         }
       }
       item.paragraph.elements.forEach((element) => {
@@ -70,10 +71,10 @@ revisionId: ${file.revisionId}
     if (index > 2) {
       if (
         !line.trim() &&
-        ((lines[index - 1] || "").startsWith("1. ") ||
-          (lines[index - 1] || "").startsWith("- ")) &&
-        ((lines[index + 1] || "").startsWith("1. ") ||
-          (lines[index + 1] || "").startsWith("- "))
+        ((lines[index - 1] || "").trim().startsWith("1. ") ||
+          (lines[index - 1] || "").trim().startsWith("- ")) &&
+        ((lines[index + 1] || "").trim().startsWith("1. ") ||
+          (lines[index + 1] || "").trim().startsWith("- "))
       )
         linesToDelete.push(index);
     }
