@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+import { writeFileSync, readFileSync } from "fs";
 import { docs_v1 } from "googleapis";
 
 export const googleDocsToMarkdown = (file: docs_v1.Schema$Document) => {
@@ -12,5 +12,5 @@ revisionId: ${file.revisionId}
   return text;
 };
 
-const file = JSON.parse(readFileSync("helpers/document.json").toString());
-console.log(googleDocsToMarkdown(file));
+const file = JSON.parse(readFileSync("document.json").toString());
+writeFileSync("document.md", googleDocsToMarkdown(file));
