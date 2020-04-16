@@ -20,7 +20,7 @@ revisionId: ${file.revisionId}
           (((listDetails.listProperties || {}).nestingLevels || [])[0] || {})
             .glyphFormat === "[%0]"
         ) {
-          text += "1 ";
+          text += "1. ";
         } else {
           text += "- ";
         }
@@ -64,6 +64,25 @@ revisionId: ${file.revisionId}
         : "\n\n";
     }
   });
+  const lines = text.split("\n");
+  const linesToDelete: number[] = [];
+  lines.forEach((line, index) => {
+    if (index > 2) {
+      if (
+        !line.trim() &&
+        ((lines[index - 1] || "").startsWith("1. ") ||
+          (lines[index - 1] || "").startsWith("- ")) &&
+        ((lines[index + 1] || "").startsWith("1. ") ||
+          (lines[index + 1] || "").startsWith("- "))
+      )
+        linesToDelete.push(index);
+    }
+  });
+  console.log(linesToDelete);
+  text = text
+    .split("\n")
+    .filter((_, i) => !linesToDelete.includes(i))
+    .join("\n");
   return text.replace(/\n\s*\n\s*\n/g, "\n\n") + "\n";
 };
 
@@ -71,7 +90,7 @@ const content = (element: docs_v1.Schema$ParagraphElement) => {
   const textRun = element.textRun || {};
   const text = (element.textRun || {}).content;
   if ((textRun.textStyle || {}).link)
-    return `[${text}](${(textRun.textStyle || {}).link?.url})`;
+    return `[${text}](${((textRun.textStyle || {}).link || {}).url})`;
   return text;
 };
 

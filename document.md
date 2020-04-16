@@ -19,9 +19,7 @@ For some professionals, scheduling these meetings manually can feel like a “fr
 The goal of this literature research paper is to answer the question “Why do professionals choose to use email to schedule appointments instead of specialized scheduling software?”. This will provide insights into the feasibility of building an EIVA, while also discussing the following sub-questions:
 
 - How do professionals currently schedule appointments?
-
 - What are the key features that currently available scheduling softwares lack that make them undesirable for many of the use cases that professionals require?
-
 - What are the tasks required in scheduling a meeting by an EIVA?
 
 This paper is divided into three parts, each respectively answering a sub-question. In the first part, the common ways in which professionals schedule appointments are explored. In the second part, the pain points of currently available tools are discussed. In the last part, six key tasks are identified that an EIVA needs to complete to successfully schedule an appointment.
@@ -80,50 +78,33 @@ The process of scheduling online appointments is non-trivial and requires severa
 
 ## References
 
-- “Email Statistics Report, 2015–2019,” The Radicati Group, Inc., Palo Alto, California, United States, Nov. 2019. Accessed: Feb. 25, 2020. [Online]. Available: https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf
-- S. Blaszkiewicz, “Online Booking Options Can Get You More Clients,” GetApp Lab, Mar. 2018. Accessed: Feb. 25, 2020. [Online]. Available: https://lab.getapp.com/research-online-booking-importance-of-appointment-scheduling/
-- D. Mortensen, “4 Ways AI Is Remaking Sales,” x.ai, Sep. 2017. Accessed: Mar. 4, 2020. [Online]. Available: https://x.ai/4-ways-ai-is-remaking-sales/
-- D. Mortensen, “How we calculate our AI’s ROI,” x.ai, Apr. 2018. Accessed: Mar. 4, 2020. [Online]. Available: https://x.ai/how-we-calculate-our-ais-roi/
-- “2019 SBA Fact Sheet – Netherlands,” European Commission, Nov. 2019. Accessed: Mar. 15, 2020. [Online]. Available: https://ec.europa.eu/docsroom/documents/38662/attachments/21/translations/en/renditions/native
-- C. M. Kincaid, P. B. Dupont, A. R. Kaye, “Electronic Calendars in the Office: An Assessment of User Needs and Current Technology”, _ACM TiiS_, vol. 3, no. 1, pp. 89–102, Jan. 1985, doi: 10.1145/3864.3868.
-
-- “Salary, Minimum Wage And Payslips In The Netherlands,” IamExpat. Accessed: Mar. 26, 2020. [Online]. Available: https://www.iamexpat.nl/career/working-in-the-netherlands/salary-payslip-dutch-minimum-wage
-- J. Cranshaw et al., “Calendar.help: Designing a Workflow-Based Scheduling Agent with Humans in the Loop,” May 2017, doi: 10.1145/3025453.3025780.
-
-- J. Wajcman, “The Digital Architecture of Time Management,” _ST&HV_, vol. 44, no. 2, pp. 315–337, Mar. 2019, doi: 10.1177/0162243918795041.
-
-- “Printing Press,” History.com, 2020. Accessed: Apr. 09, 2020. [Online]. Available: https://www.history.com/topics/inventions/printing-press
-- Imanuel, “Top 10 Free and Premium Calendaring Software in 2020,” PAT Research. Accessed: Apr. 01, 2020. [Online]. Available: https://www.predictiveanalyticstoday.com/top-calendaring-software/
-- M. Masli, W. Geyer, C. Dugan, B. Brownholtz, “The design and usage of tentative events for time-based social coordination in the enterprise,” _Proc. 20th Int. Conf. World Wide Web_, pp. 765–774, Apr. 2011, doi: 10.1145/1963405.1963512.
-
-- “Google Apps @ UT for students,” University of Twente. Accessed: Apr. 10, 2020. [Online]. Available: https://www.utwente.nl/en/products-services/product/l829834/google-apps-ut-for-students
-- S. F. Ehrlich, “Strategies for Encouraging Successful Adoption of Office Communication Systems,” _ACM TiiS_, vol. 5, no. 4, pp. 340–357, Oct. 1987, doi: 10.1145/42196.42198.
-
-- T. Erickson, C. M. Danis, W. A. Kellogg, M. E. Helander, “Assistance: the work practices of human administrative assistants and their implications for it and organizations,” _Proc. 2008 ACM Conf. Comput. Supported Cooperative Work_, pp. 609–618, Nov. 2008, doi: 10.1145/1460563.1460658.
-
-- N. R. Jennings, A. J. Jackson, “Agent-based meeting scheduling: a design and implementation,” _Electron. Lett._, vol. 31, no. 5, pp. 350–352, Mar. 1995, doi: 10.1049/el:19950245.
-
-- P. M. Berry, M. Gervasio, B. Peintner, and N. Yorke-Smith, “PTIME: Personalized assistance for calendaring,” _ACM TiiS_, vol. 2, no. 4, pp. 1–22, Jul. 2011, doi: 10.1145/1989734.1989744.
-
-- J. F. Kelley, A. Chapanis, “How professional persons keep their calendars: Implications for computerization”, _J. Occupat. Psychol._, vol. 55, no. 4, pp. 241–256, Dec. 1982, doi: 10.1111/j.2044-8325.1982.tb00098.x.
-
-- S. Schieffer, “Google Calendar for Android: Find a time for my meeting,” Google, Mountain View, California, United States, Apr. 2016. Accessed: Apr. 13, 2020. [Online]. Available: https://blog.google/products/calendar/google-calendar-for-android-find-time/.
-- N. Ducheneaut, V. Bellotti, “E-mail as habitat: an exploration of embedded personal information management,” _ACM Interact._, vol. 8, no. 5, pp. 30–38, Sep. 2001, doi: 10.1145/382899.383305.
-
-- A. de Barcelos Silva et al., “Intelligent personal assistants: A systematic literature review,” _Expert Syst. with Appl._, vol. 147, no. 113193, Jun. 2020, doi: 10.1016/j.eswa.2020.113193.
-
-- J. Kiseleva, K. Williams, A. Hassan Awadallah, A.C. Crook, I. Zitouni, T. Anastasakos, “Predicting user satisfaction with intelligent assistants,” _Proc. 39th Int. ACM SIGIR Conf. Res. and Develop. Inf. Retrieval_, ACM Press, pp. 45–54, Jul. 2016, doi: 10.1145/2911451.2911521.
-
-- J. F. Kelley, “An iterative design methodology for user-friendly natural language office information applications,” _ACM TiiS_, vol. 2, no. 1, pp. 26-41, Jan. 1984, doi: 10.1145/357417.357420.
-
-- G. Linden, B. Smith, J. York, “Amazon.com recommendations: item-to-item collaborative filtering,” _IEEE Internet Comput._, vol. 7, no. 1, pp. 76–80, Jan 2003, doi: 10.1109/MIC.2003.1167344.
-
-- C. A. Gomez-Uribe, N. Hunt, “The Netflix Recommender System: Algorithms, Business Value, and Innovation,” _ACM TMIS_, vol. 6, no. 2, pp. 13.1–13.19, Dec. 2015, doi: 10.1145/2843948.
-- G. Adomavičius, A. Tuzhilin, “Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions,” _IEEE Trans. Knowl. Data Eng._, vol. 17, no. 6, pp. 734–749, Jun. 2005, doi:10.1109/TKDE.2005.99.
-
-- G. Adomavičius, R. Sankaranarayanan, S. Sen, A. Tuzhilin, “Incorporating contextual information in recommender systems using a multidimensional approach,” _ACM TiiS_, vol. 23, no. 1, pp. 103–145, Jan. 2005, doi: 10.1145/1055709.1055714.
-
-- A. Zunino, M. Campo, “Chronos: A multi-agent system for distributed automatic meeting scheduling,” _Expert Syst. with Appl._, vol. 36, no. 3.2, pp. 7011–7018, Apr. 2009, doi: 10.1016/j.eswa.2008.08.024.
-
-- B. Desruisseaux, “Internet Calendaring and Scheduling Core Object Specification (iCalendar),” _Internet Eng. Task Force_, Sep. 2009, doi: 10.17487/RFC5545.
+1. “Email Statistics Report, 2015–2019,” The Radicati Group, Inc., Palo Alto, California, United States, Nov. 2019. Accessed: Feb. 25, 2020. [Online]. Available: [https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf](https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf)
+1. S. Blaszkiewicz, “Online Booking Options Can Get You More Clients,” GetApp Lab, Mar. 2018. Accessed: Feb. 25, 2020. [Online]. Available: [https://lab.getapp.com/research-online-booking-importance-of-appointment-scheduling/](https://lab.getapp.com/research-online-booking-importance-of-appointment-scheduling/)
+1. D. Mortensen, “4 Ways AI Is Remaking Sales,” x.ai, Sep. 2017. Accessed: Mar. 4, 2020. [Online]. Available: [https://x.ai/4-ways-ai-is-remaking-sales/](https://x.ai/4-ways-ai-is-remaking-sales/)
+1. D. Mortensen, “How we calculate our AI’s ROI,” x.ai, Apr. 2018. Accessed: Mar. 4, 2020. [Online]. Available: [https://x.ai/how-we-calculate-our-ais-roi/](https://x.ai/how-we-calculate-our-ais-roi/)
+1. “2019 SBA Fact Sheet – Netherlands,” European Commission, Nov. 2019. Accessed: Mar. 15, 2020. [Online]. Available: [https://ec.europa.eu/docsroom/documents/38662/attachments/21/translations/en/renditions/native](https://ec.europa.eu/docsroom/documents/38662/attachments/21/translations/en/renditions/native)
+1. C. M. Kincaid, P. B. Dupont, A. R. Kaye, “Electronic Calendars in the Office: An Assessment of User Needs and Current Technology”, _ACM TiiS_, vol. 3, no. 1, pp. 89–102, Jan. 1985, doi: 10.1145/3864.3868.
+1. “Salary, Minimum Wage And Payslips In The Netherlands,” IamExpat. Accessed: Mar. 26, 2020. [Online]. Available: [https://www.iamexpat.nl/career/working-in-the-netherlands/salary-payslip-dutch-minimum-wage](https://www.iamexpat.nl/career/working-in-the-netherlands/salary-payslip-dutch-minimum-wage)
+1. J. Cranshaw et al., “Calendar.help: Designing a Workflow-Based Scheduling Agent with Humans in the Loop,” May 2017, doi: 10.1145/3025453.3025780.
+1. J. Wajcman, “The Digital Architecture of Time Management,” _ST&HV_, vol. 44, no. 2, pp. 315–337, Mar. 2019, doi: 10.1177/0162243918795041.
+1. “Printing Press,” History.com, 2020. Accessed: Apr. 09, 2020. [Online]. Available: [https://www.history.com/topics/inventions/printing-press](https://www.history.com/topics/inventions/printing-press)
+1. Imanuel, “Top 10 Free and Premium Calendaring Software in 2020,” PAT Research. Accessed: Apr. 01, 2020. [Online]. Available: [https://www.predictiveanalyticstoday.com/top-calendaring-software/](https://www.predictiveanalyticstoday.com/top-calendaring-software/)
+1. M. Masli, W. Geyer, C. Dugan, B. Brownholtz, “The design and usage of tentative events for time-based social coordination in the enterprise,” _Proc. 20th Int. Conf. World Wide Web_, pp. 765–774, Apr. 2011, doi: 10.1145/1963405.1963512.
+1. “Google Apps @ UT for students,” University of Twente. Accessed: Apr. 10, 2020. [Online]. Available: [https://www.utwente.nl/en/products-services/product/l829834/google-apps-ut-for-students](https://www.utwente.nl/en/products-services/product/l829834/google-apps-ut-for-students)
+1. S. F. Ehrlich, “Strategies for Encouraging Successful Adoption of Office Communication Systems,” _ACM TiiS_, vol. 5, no. 4, pp. 340–357, Oct. 1987, doi: 10.1145/42196.42198.
+1. T. Erickson, C. M. Danis, W. A. Kellogg, M. E. Helander, “Assistance: the work practices of human administrative assistants and their implications for it and organizations,” _Proc. 2008 ACM Conf. Comput. Supported Cooperative Work_, pp. 609–618, Nov. 2008, doi: 10.1145/1460563.1460658.
+1. N. R. Jennings, A. J. Jackson, “Agent-based meeting scheduling: a design and implementation,” _Electron. Lett._, vol. 31, no. 5, pp. 350–352, Mar. 1995, doi: 10.1049/el:19950245.
+1. P. M. Berry, M. Gervasio, B. Peintner, and N. Yorke-Smith, “PTIME: Personalized assistance for calendaring,” _ACM TiiS_, vol. 2, no. 4, pp. 1–22, Jul. 2011, doi: 10.1145/1989734.1989744.
+1. J. F. Kelley, A. Chapanis, “How professional persons keep their calendars: Implications for computerization”, _J. Occupat. Psychol._, vol. 55, no. 4, pp. 241–256, Dec. 1982, doi: 10.1111/j.2044-8325.1982.tb00098.x.
+1. S. Schieffer, “Google Calendar for Android: Find a time for my meeting,” Google, Mountain View, California, United States, Apr. 2016. Accessed: Apr. 13, 2020. [Online]. Available: [https://blog.google/products/calendar/google-calendar-for-android-find-time/](https://blog.google/products/calendar/google-calendar-for-android-find-time/).
+1. N. Ducheneaut, V. Bellotti, “E-mail as habitat: an exploration of embedded personal information management,” _ACM Interact._, vol. 8, no. 5, pp. 30–38, Sep. 2001, doi: 10.1145/382899.383305.
+1. A. de Barcelos Silva et al., “Intelligent personal assistants: A systematic literature review,” _Expert Syst. with Appl._, vol. 147, no. 113193, Jun. 2020, doi: 10.1016/j.eswa.2020.113193.
+1. J. Kiseleva, K. Williams, A. Hassan Awadallah, A.C. Crook, I. Zitouni, T. Anastasakos, “Predicting user satisfaction with intelligent assistants,” _Proc. 39th Int. ACM SIGIR Conf. Res. and Develop. Inf. Retrieval_, ACM Press, pp. 45–54, Jul. 2016, doi: 10.1145/2911451.2911521.
+1. J. F. Kelley, “An iterative design methodology for user-friendly natural language office information applications,” _ACM TiiS_, vol. 2, no. 1, pp. 26-41, Jan. 1984, doi: 10.1145/357417.357420.
+1. G. Linden, B. Smith, J. York, “Amazon.com recommendations: item-to-item collaborative filtering,” _IEEE Internet Comput._, vol. 7, no. 1, pp. 76–80, Jan 2003, doi: 10.1109/MIC.2003.1167344.
+1. C. A. Gomez-Uribe, N. Hunt, “The Netflix Recommender System: Algorithms, Business Value, and Innovation,” _ACM TMIS_, vol. 6, no. 2, pp. 13.1–13.19, Dec. 2015, doi: 10.1145/2843948.
+1. G. Adomavičius, A. Tuzhilin, “Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions,” _IEEE Trans. Knowl. Data Eng._, vol. 17, no. 6, pp. 734–749, Jun. 2005, doi:10.1109/TKDE.2005.99.
+1. G. Adomavičius, R. Sankaranarayanan, S. Sen, A. Tuzhilin, “Incorporating contextual information in recommender systems using a multidimensional approach,” _ACM TiiS_, vol. 23, no. 1, pp. 103–145, Jan. 2005, doi: 10.1145/1055709.1055714.
+1. A. Zunino, M. Campo, “Chronos: A multi-agent system for distributed automatic meeting scheduling,” _Expert Syst. with Appl._, vol. 36, no. 3.2, pp. 7011–7018, Apr. 2009, doi: 10.1016/j.eswa.2008.08.024.
+1. B. Desruisseaux, “Internet Calendaring and Scheduling Core Object Specification (iCalendar),” _Internet Eng. Task Force_, Sep. 2009, doi: 10.17487/RFC5545.
 
