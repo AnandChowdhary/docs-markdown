@@ -1,0 +1,3494 @@
+{
+  "title": "Academic Writing",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 36,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 36,
+              "textRun": {
+                "content": "Scheduling Appointments Over Email\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.bud8aattcpbp",
+            "namedStyleType": "TITLE",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 36,
+        "endIndex": 136,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 36,
+              "endIndex": 135,
+              "textRun": {
+                "content": "Anand Chowdhary (S1930702), Creative Technology BSc\u000bUniversity of Twente, Enschede, the Netherlands",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 135,
+              "endIndex": 136,
+              "textRun": { "content": "\n", "textStyle": { "italic": true } }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 25, "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 136,
+        "endIndex": 137,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 136,
+              "endIndex": 137,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.c1jd4bq4ttyz",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 137,
+        "endIndex": 150,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 137,
+              "endIndex": 150,
+              "textRun": { "content": "Introduction\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.x2w7haisj6ty",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 150,
+        "endIndex": 236,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 150,
+              "endIndex": 223,
+              "textRun": {
+                "content": "“Waste of time is thus the first and in principle the deadliest of sins.”",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 223,
+              "endIndex": 236,
+              "textRun": { "content": " – Max Weber\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 236,
+        "endIndex": 914,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 236,
+              "endIndex": 301,
+              "textRun": {
+                "content": "Setting up appointments by email is a non-trivial waste of time. ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 301,
+              "endIndex": 914,
+              "textRun": {
+                "content": "Last year, 110 billion consumer emails were sent per day, with a very common use case being setting up appointments [1]. Several email exchanges are required in order to find a suitable time and place where all parties are available, and almost 1 in 5 users struggle with finding sufficient available time slots [2]. This back-and-forth calendar conflict resolution wastes on average 17 minutes per meeting [3]. Moreover, over 3 in 5 meetings end up getting rescheduled for a different time or place [4], which wastes additional time in confirmations. This adds up to about 9 hours wasted every month per person.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 914,
+        "endIndex": 1555,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 914,
+              "endIndex": 1555,
+              "textRun": {
+                "content": "For some professionals, scheduling these meetings manually can feel like a “frustrating distraction from the things that matter,” so much so that they hire assistants to help with the task [8]. However, not everyone can afford full-time assistants and will therefore turn to software solutions. Email-based intelligent virtual assistants (EIVA, /iːvɑ/) built using machine learning can help by automating these scheduling messages. An EIVA can access a user’s calendar and find empty meeting slots based on their location and scheduling preferences. It can then send and respond to emails regarding scheduling meetings on the user’s behalf.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1555,
+        "endIndex": 1857,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1555,
+              "endIndex": 1856,
+              "textRun": {
+                "content": "The goal of this literature research paper is to answer the question “Why do professionals choose to use email to schedule appointments instead of specialized scheduling software?”. This will provide insights into the feasibility of building an EIVA, while also discussing the following sub-questions:",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1856,
+              "endIndex": 1857,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1857,
+        "endIndex": 1911,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1857,
+              "endIndex": 1911,
+              "textRun": {
+                "content": "How do professionals currently schedule appointments?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "COLLAPSE_LISTS",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.vmfbvidouu1",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 1911,
+        "endIndex": 2069,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1911,
+              "endIndex": 2069,
+              "textRun": {
+                "content": "What are the key features that currently available scheduling softwares lack that make them undesirable for many of the use cases that professionals require?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "COLLAPSE_LISTS",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.vmfbvidouu1",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 2069,
+        "endIndex": 2133,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2069,
+              "endIndex": 2133,
+              "textRun": {
+                "content": "What are the tasks required in scheduling a meeting by an EIVA?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "COLLAPSE_LISTS",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.vmfbvidouu1",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 2133,
+        "endIndex": 2510,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2133,
+              "endIndex": 2509,
+              "textRun": {
+                "content": "This paper is divided into three parts, each respectively answering a sub-question. In the first part, the common ways in which professionals schedule appointments are explored. In the second part, the pain points of currently available tools are discussed. In the last part, six key tasks are identified that an EIVA needs to complete to successfully schedule an appointment.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 2509,
+              "endIndex": 2510,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2510,
+        "endIndex": 2521,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2510,
+              "endIndex": 2521,
+              "textRun": { "content": "Discussion\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.tdyndax9tgn5",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2521,
+        "endIndex": 2561,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2521,
+              "endIndex": 2561,
+              "textRun": {
+                "content": "How professionals schedule appointments\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.6acqlt8zskfs",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceAbove": { "magnitude": 10, "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 2561,
+        "endIndex": 3133,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2561,
+              "endIndex": 3133,
+              "textRun": {
+                "content": "In their fundamental forms, calendars are the “most basic of all human sensemaking devices” [9]. From time immemorial, calendars have been used as tools to establish patterns through which nearly all institutions, societies, and social groups manage orderliness. Notably, the first “book” printed by Gutenberg in 1452 was a calendar [10], and today, professionals increasingly use digital calendars for the same purpose of time management and accountability. Digital calendars have become “the standard office tool for coordinating and synchronizing work activities” [9].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3133,
+        "endIndex": 3715,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3133,
+              "endIndex": 3715,
+              "textRun": {
+                "content": "There are several calendaring software products available to professionals, both commercial and open source. In general, they offer a range of features, including calendar views, built-in address book, appointment reminders, and email integration [11]. Many major internet companies offer such solutions, such as Google Calendar, Microsoft Outlook, Apple Calendar, and Mozilla Thunderbird. For company-wide adoption, enterprise software such as Microsoft Exchange and IBM Notes are also available [12]. University of Twente, for example, recommends the use of Google Calendar [13].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 3715,
+        "endIndex": 4274,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3715,
+              "endIndex": 4273,
+              "textRun": {
+                "content": "However, company-wide adoption of scheduling software is troublesome. For end users, it requires behavioral change, such as using a different tool than they are used to [14]. Additionally, there is no “one size fits all” solution to calendaring, because there is a wide variation in people’s meeting needs. For example, a professor who wants to schedule office hours with students might want students to pick their preferred meeting times, whereas a corporate executive might want to heavily control their availability times and response to meeting requests.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 4273,
+              "endIndex": 4274,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": { "rgbColor": { "red": 1, "green": 1 } }
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4274,
+        "endIndex": 4935,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4274,
+              "endIndex": 4934,
+              "textRun": {
+                "content": "Professionals who can afford to hire assistants choose to delegate the hassle of scheduling. In a survey of administrative assistants, all but one reported that most of their work was scheduling-related, wasting hundreds of man-hours [15]. According to the European Commission, the average Dutch small or medium-sized enterprise (SME) employs 3.2 people [5]. If each employee attends 7 meetings per week, 26 otherwise productive hours are wasted every month in scheduling meetings [6]. This costs the company over €450 in lost time, based on the average wage of €17.6 per hour [7]. This adds up to almost €2.25 billion per year for the SME industry as a whole.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 4934,
+              "endIndex": 4935,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4935,
+        "endIndex": 4986,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4935,
+              "endIndex": 4985,
+              "textRun": {
+                "content": "Shortfalls of currently available scheduling tools",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 4985,
+              "endIndex": 4986,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.2qx0mvl3unji",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 4986,
+        "endIndex": 5625,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4986,
+              "endIndex": 5625,
+              "textRun": {
+                "content": "Currently available products force the end user to manually enact the process of scheduling [16]. For this reason, these tools avoid the need to actively reason about constraints and the user’s scheduling preferences, such as which one of the many available meeting times to choose when underconstrained, and how the user would prefer to relax a meeting request when overconstrained [17]. In a work environment, there are further decisions to make, such as which conference room is best for a given type of meeting, or setting up remote meetings using video calling software. All of these decisions are presently passed onto the end user.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 5625,
+        "endIndex": 6518,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 5625,
+              "endIndex": 6518,
+              "textRun": {
+                "content": "These calendaring tools are also “particularly cumbersome when attendees need to coordinate multiple schedules while each using their own individual tool and approach” [8]. This is especially true for users who have multiple calendars, such as a different calendar for work and personal lives. A survey of 23 professionals found that substantially more than half of the respondents maintain more than one calendar, with some respondents using as high as six calendars at once [18]. Another survey reported that 2 calendars were used by professionals on average [6]. Keeping separate work and private calendars is the norm “even though the standard weekly interface of most scheduling software is meant to occlude such distinctions” [9]. This suggests that an important feature of the ideal scheduling software would be the ability to synchronize and find availability from multiple calendars.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 6518,
+        "endIndex": 7417,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 6518,
+              "endIndex": 7417,
+              "textRun": {
+                "content": "Apart from calendaring tools, some users opt for scheduling tools that have additional features available, though they too possess shortcomings. For example, Google Calendar’s “Find a time” feature helps users select a time by displaying the availability of all participants graphically [19]. This is particularly helpful when integrated on an institutional level, with features such as room booking and team invitations, but it also introduces new challenges for participants who do not add their agenda to their calendar well in advance. A 1982 survey found enormous differences in the time span coverage between respondents, with some users planning appointments months in advance while others concerned only with the current day and the day following [18]. Hence, scheduling software must be conversational and confirm the proposed time with guests without directly relying upon their calendar.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7417,
+        "endIndex": 7451,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7417,
+              "endIndex": 7451,
+              "textRun": {
+                "content": "Tasks required in EIVA scheduling\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.dvt9xtq0xyj9",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7451,
+        "endIndex": 7918,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7451,
+              "endIndex": 7918,
+              "textRun": {
+                "content": "The previous section highlights that although there is a multitude of scheduling softwares available, they are not EIVAs and therefore lack the potential benefit that personalized AI technology could bring. Consequently, most users prefer to use email for scheduling rather than currently available specialized software. A survey of workers in the field of information management found that over 80% of the respondents use email for scheduling and organization [20].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7918,
+        "endIndex": 7960,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7918,
+              "endIndex": 7960,
+              "textRun": {
+                "content": "Understanding natural language over email\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.h99846m063hq",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 7960,
+        "endIndex": 8605,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 7960,
+              "endIndex": 8605,
+              "textRun": {
+                "content": "Communication with devices using natural language is commonplace for many people today, especially with the advent of affordable smart voice assistants, such as Alexa, available on Amazon Echo; and Google Assistant, available on Google Home [21]. Their interface, which translates a human’s intention into a device’s control commands using speech recognition and natural language interpretation, is known as a Natural Language Interface (NLI). The dialogue-style nature of the interactions between the user and the device and their ability to preserve context across different queries are benefits of using NLIs over other user interfaces [22].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 8605,
+        "endIndex": 9315,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 8605,
+              "endIndex": 9315,
+              "textRun": {
+                "content": "Personification of the scheduling process using natural language has the additional benefit of increased likeliness of error forgiveness by end users. In a study, over 80% of the participants who encountered errors in NLIs understanding them said that either their attitude was unaffected or the users themselves “must have typed in something wrong” [23]. Furthermore, NLIs allow people to use their existing calendaring tools and idiosyncrasies by adopting email as the user interface and natural language conversations as the interaction mode. For example, a message such as “Please schedule an appointment with Florian for next week” should be enough for the EIVA to take over the remainder of the process.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9315,
+        "endIndex": 9317,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9315,
+              "endIndex": 9316,
+              "pageBreak": { "textStyle": {} }
+            },
+            {
+              "startIndex": 9316,
+              "endIndex": 9317,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.fab6ndxlho0n",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9317,
+        "endIndex": 9343,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9317,
+              "endIndex": 9343,
+              "textRun": {
+                "content": "Parameter recommendations\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.71fr3bfsc95i",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceAbove": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 9343,
+        "endIndex": 9798,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9343,
+              "endIndex": 9798,
+              "textRun": {
+                "content": "Recommendation systems are frequently used in several industries to help users make better decisions. Examples of collaborative recommender systems include product recommendations on e-commerce website Amazon [24] and TV series recommendations on the streaming provider Netflix [25]. Modern systems may use various machine learning techniques like artificial neural networks combined with feature extraction methods to find the ideal recommendation [26].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 9798,
+        "endIndex": 10454,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 9798,
+              "endIndex": 10453,
+              "textRun": {
+                "content": "Scheduling a single appointment requires agreement on several parameters, such as date, time, duration, and location of meeting. Recommending a set of these parameters must be based on the user’s predetermined preferences, such as the hours they prefer for scheduling calls. However, the ideal implementation of such a recommendation system may take a multidimensional approach that uses additional contextual information [27]. For example, contextual information may include the user’s location to account for the travel time to a recommended meeting’s location; or, for international calls, it may include the guest’s timezone based on their IP address.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 10453,
+              "endIndex": 10454,
+              "textRun": { "content": "\n", "textStyle": { "bold": true } }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10454,
+        "endIndex": 10466,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10454,
+              "endIndex": 10466,
+              "textRun": { "content": "Negotiation\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.pypbboj7q7e5",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 10466,
+        "endIndex": 11475,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 10466,
+              "endIndex": 11475,
+              "textRun": {
+                "content": "Since not all guests may be available at the initially proposed time, the next major task required by the EIVA is negotiation. The negotiation mechanism allows it to be flexible about constraints imposed by the preferences of other users. Zunino and Campo (2009) note that the negotiation mechanism “starts when two [users] do not agree on some parameter of a meeting,” such as the date, time, or location of the meeting [28]. Then, the guest may propose a new set of parameters for the meeting, for example by modifying its time. The EIVA will evaluate whether the proposal is convenient or not by comparing the “likeliness of reaching a consensus using the previous meeting parameters with the proposed parameters.” In this step, it can also make a judgement call by choosing to ignore part of the user’s preferred parameters in order to agree with the guests. This back-and-forth negotiation process needs to occur asynchronously, “sometimes requiring several days for the parties to reach consensus” [8].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11475,
+        "endIndex": 11518,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11475,
+              "endIndex": 11518,
+              "textRun": {
+                "content": "Renegotiation and confirmation invitations\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.829x3zmoi4gq",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11518,
+        "endIndex": 11987,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11518,
+              "endIndex": 11987,
+              "textRun": {
+                "content": "In the dynamic environment that is the modern workplace, changing appointment parameters is commonplace. A study found that 66% of all scheduled meetings by a CEO underwent a parameter change [4]. Inevitably, once a meeting is scheduled, it requires “continuous maintenance, as new events often prompt meeting updates and reschedules” [8]. To finalize the meeting parameters, the EIVA should take into account the parameter preferences of both the user and all guests.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 11987,
+        "endIndex": 12666,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 11987,
+              "endIndex": 12666,
+              "textRun": {
+                "content": "To make sure that all guests have the most recent parameters, confirmations and reminders may be sent by the EIVA. However, not all users use the same calendaring software, with some professionals using no digital calendar at all. Kincaid (1985) reported that approximately one half of all meetings scheduled by professionals were with users using a different calendaring system than their own [6]. Therefore, the EIVA will be required to send these emails using industry standards supported by most software. The primary standard to store and exchange calendaring and scheduling information is the Internet Calendaring and Scheduling Core Object Specification (iCalendar) [29].\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12666,
+        "endIndex": 12677,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12666,
+              "endIndex": 12676,
+              "textRun": { "content": "Conclusion", "textStyle": {} }
+            },
+            {
+              "startIndex": 12676,
+              "endIndex": 12677,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.rgdxep10lea8",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 12677,
+        "endIndex": 13287,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 12677,
+              "endIndex": 13287,
+              "textRun": {
+                "content": "Although digital calendars have been the standard office tool for professionals, they are currently unable to bridge the communication gap between the end user and the invitees. The current scheduling softwares also lack a holistic solution to calendaring due to a wide variation in people’s meeting needs. Thus, end users have to rely upon emailing to communicate meeting details effectively, wasting otherwise productive man-hours. To combat this, an EIVA that can schedule appointments on a user’s behalf must consider multiple calendars, user preferences, and use a multidimensional recommendation system.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13287,
+        "endIndex": 13992,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13287,
+              "endIndex": 13991,
+              "textRun": {
+                "content": "The process of scheduling online appointments is non-trivial and requires several rounds of communication, coordination, and negotiation. Some of the major tasks required for scheduling an appointment using an EIVA are (1) understanding the meaning of a user’s request in natural language, (2) intelligently recommending an initial set of parameters such as date, time, duration, and location; (3) negotiating parameters when a disagreement occurs; (4) sending invitations and reminders supporting all major calendar service providers; (5) renegotiating in case changes are required in a confirmed appointment; and (6) finalizing the parameters based on the preferences of both the user and the invitees.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 13991,
+              "endIndex": 13992,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13992,
+        "endIndex": 13994,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13992,
+              "endIndex": 13993,
+              "pageBreak": { "textStyle": {} }
+            },
+            {
+              "startIndex": 13993,
+              "endIndex": 13994,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.sij1kfbnic3o",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 13994,
+        "endIndex": 14005,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 13994,
+              "endIndex": 14004,
+              "textRun": { "content": "References", "textStyle": {} }
+            },
+            {
+              "startIndex": 14004,
+              "endIndex": 14005,
+              "textRun": { "content": "\n", "textStyle": { "italic": true } }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.tyn9405o639p",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceAbove": { "unit": "PT" }
+          }
+        }
+      },
+      {
+        "startIndex": 14005,
+        "endIndex": 14275,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14005,
+              "endIndex": 14164,
+              "textRun": {
+                "content": "“Email Statistics Report, 2015–2019,” The Radicati Group, Inc., Palo Alto, California, United States, Nov. 2019. Accessed: Feb. 25, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14164,
+              "endIndex": 14274,
+              "textRun": {
+                "content": "https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.radicati.com/wp/wp-content/uploads/2015/02/Email-Statistics-Report-2015-2019-Executive-Summary.pdf"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 14274,
+              "endIndex": 14275,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 14275,
+        "endIndex": 14497,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14275,
+              "endIndex": 14412,
+              "textRun": {
+                "content": "S. Blaszkiewicz, “Online Booking Options Can Get You More Clients,” GetApp Lab, Mar. 2018. Accessed: Feb. 25, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14412,
+              "endIndex": 14496,
+              "textRun": {
+                "content": "https://lab.getapp.com/research-online-booking-importance-of-appointment-scheduling/",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://lab.getapp.com/research-online-booking-importance-of-appointment-scheduling/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 14496,
+              "endIndex": 14497,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceAbove": { "unit": "PT" },
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 14497,
+        "endIndex": 14646,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14497,
+              "endIndex": 14604,
+              "textRun": {
+                "content": "D. Mortensen, “4 Ways AI Is Remaking Sales,” x.ai, Sep. 2017. Accessed: Mar. 4, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14604,
+              "endIndex": 14645,
+              "textRun": {
+                "content": "https://x.ai/4-ways-ai-is-remaking-sales/",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": { "url": "https://x.ai/4-ways-ai-is-remaking-sales/" }
+                }
+              }
+            },
+            {
+              "startIndex": 14645,
+              "endIndex": 14646,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 14646,
+        "endIndex": 14798,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14646,
+              "endIndex": 14755,
+              "textRun": {
+                "content": "D. Mortensen, “How we calculate our AI’s ROI,” x.ai, Apr. 2018. Accessed: Mar. 4, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14755,
+              "endIndex": 14797,
+              "textRun": {
+                "content": "https://x.ai/how-we-calculate-our-ais-roi/",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://x.ai/how-we-calculate-our-ais-roi/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 14797,
+              "endIndex": 14798,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 14798,
+        "endIndex": 15008,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 14798,
+              "endIndex": 14913,
+              "textRun": {
+                "content": "“2019 SBA Fact Sheet – Netherlands,” European Commission, Nov. 2019. Accessed: Mar. 15, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 14913,
+              "endIndex": 15007,
+              "textRun": {
+                "content": "https://ec.europa.eu/docsroom/documents/38662/attachments/21/translations/en/renditions/native",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://ec.europa.eu/docsroom/documents/38662/attachments/21/translations/en/renditions/native"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 15007,
+              "endIndex": 15008,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15008,
+        "endIndex": 15211,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15008,
+              "endIndex": 15139,
+              "textRun": {
+                "content": "C. M. Kincaid, P. B. Dupont, A. R. Kaye, “Electronic Calendars in the Office: An Assessment of User Needs and Current Technology”, ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15139,
+              "endIndex": 15147,
+              "textRun": {
+                "content": "ACM TiiS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 15147,
+              "endIndex": 15211,
+              "textRun": {
+                "content": ", vol. 3, no. 1, pp. 89–102, Jan. 1985, doi: 10.1145/3864.3868.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15211,
+        "endIndex": 15415,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15211,
+              "endIndex": 15323,
+              "textRun": {
+                "content": "“Salary, Minimum Wage And Payslips In The Netherlands,” IamExpat. Accessed: Mar. 26, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15323,
+              "endIndex": 15414,
+              "textRun": {
+                "content": "https://www.iamexpat.nl/career/working-in-the-netherlands/salary-payslip-dutch-minimum-wage",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.iamexpat.nl/career/working-in-the-netherlands/salary-payslip-dutch-minimum-wage"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 15414,
+              "endIndex": 15415,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15415,
+        "endIndex": 15561,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15415,
+              "endIndex": 15561,
+              "textRun": {
+                "content": "J. Cranshaw et al., “Calendar.help: Designing a Workflow-Based Scheduling Agent with Humans in the Loop,” May 2017, doi: 10.1145/3025453.3025780.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15561,
+        "endIndex": 15698,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15561,
+              "endIndex": 15620,
+              "textRun": {
+                "content": "J. Wajcman, “The Digital Architecture of Time Management,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15620,
+              "endIndex": 15625,
+              "textRun": { "content": "ST&HV", "textStyle": { "italic": true } }
+            },
+            {
+              "startIndex": 15625,
+              "endIndex": 15698,
+              "textRun": {
+                "content": ", vol. 44, no. 2, pp. 315–337, Mar. 2019, doi: 10.1177/0162243918795041.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15698,
+        "endIndex": 15838,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15698,
+              "endIndex": 15781,
+              "textRun": {
+                "content": "“Printing Press,” History.com, 2020. Accessed: Apr. 09, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15781,
+              "endIndex": 15837,
+              "textRun": {
+                "content": "https://www.history.com/topics/inventions/printing-press",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.history.com/topics/inventions/printing-press"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 15837,
+              "endIndex": 15838,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 15838,
+        "endIndex": 16030,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15838,
+              "endIndex": 15963,
+              "textRun": {
+                "content": "Imanuel, “Top 10 Free and Premium Calendaring Software in 2020,” PAT Research. Accessed: Apr. 01, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 15963,
+              "endIndex": 16029,
+              "textRun": {
+                "content": "https://www.predictiveanalyticstoday.com/top-calendaring-software/",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.predictiveanalyticstoday.com/top-calendaring-software/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 16029,
+              "endIndex": 16030,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 16030,
+        "endIndex": 16264,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16030,
+              "endIndex": 16172,
+              "textRun": {
+                "content": "M. Masli, W. Geyer, C. Dugan, B. Brownholtz, “The design and usage of tentative events for time-based social coordination in the enterprise,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 16172,
+              "endIndex": 16208,
+              "textRun": {
+                "content": "Proc. 20th Int. Conf. World Wide Web",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 16208,
+              "endIndex": 16264,
+              "textRun": {
+                "content": ", pp. 765–774, Apr. 2011, doi: 10.1145/1963405.1963512.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 16264,
+        "endIndex": 16453,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16264,
+              "endIndex": 16365,
+              "textRun": {
+                "content": "“Google Apps @ UT for students,” University of Twente. Accessed: Apr. 10, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 16365,
+              "endIndex": 16452,
+              "textRun": {
+                "content": "https://www.utwente.nl/en/products-services/product/l829834/google-apps-ut-for-students",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.utwente.nl/en/products-services/product/l829834/google-apps-ut-for-students"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 16452,
+              "endIndex": 16453,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 16453,
+        "endIndex": 16625,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16453,
+              "endIndex": 16550,
+              "textRun": {
+                "content": "S. F. Ehrlich, “Strategies for Encouraging Successful Adoption of Office Communication Systems,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 16550,
+              "endIndex": 16558,
+              "textRun": {
+                "content": "ACM TiiS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 16558,
+              "endIndex": 16625,
+              "textRun": {
+                "content": ", vol. 5, no. 4, pp. 340–357, Oct. 1987, doi: 10.1145/42196.42198.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 16625,
+        "endIndex": 16910,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16625,
+              "endIndex": 16799,
+              "textRun": {
+                "content": "T. Erickson, C. M. Danis, W. A. Kellogg, M. E. Helander, “Assistance: the work practices of human administrative assistants and their implications for it and organizations,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 16799,
+              "endIndex": 16854,
+              "textRun": {
+                "content": "Proc. 2008 ACM Conf. Comput. Supported Cooperative Work",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 16854,
+              "endIndex": 16910,
+              "textRun": {
+                "content": ", pp. 609–618, Nov. 2008, doi: 10.1145/1460563.1460658.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 16910,
+        "endIndex": 17087,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16910,
+              "endIndex": 17004,
+              "textRun": {
+                "content": "N. R. Jennings, A. J. Jackson, “Agent-based meeting scheduling: a design and implementation,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17004,
+              "endIndex": 17019,
+              "textRun": {
+                "content": "Electron. Lett.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 17019,
+              "endIndex": 17087,
+              "textRun": {
+                "content": ", vol. 31, no. 5, pp. 350–352, Mar. 1995, doi: 10.1049/el:19950245.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 17087,
+        "endIndex": 17272,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17087,
+              "endIndex": 17196,
+              "textRun": {
+                "content": "P. M. Berry, M. Gervasio, B. Peintner, and N. Yorke-Smith, “PTIME: Personalized assistance for calendaring,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17196,
+              "endIndex": 17204,
+              "textRun": {
+                "content": "ACM TiiS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 17204,
+              "endIndex": 17272,
+              "textRun": {
+                "content": ", vol. 2, no. 4, pp. 1–22, Jul. 2011, doi: 10.1145/1989734.1989744.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 17272,
+        "endIndex": 17485,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17272,
+              "endIndex": 17382,
+              "textRun": {
+                "content": "J. F. Kelley, A. Chapanis, “How professional persons keep their calendars: Implications for computerization”, ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17382,
+              "endIndex": 17402,
+              "textRun": {
+                "content": "J. Occupat. Psychol.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 17402,
+              "endIndex": 17485,
+              "textRun": {
+                "content": ", vol. 55, no. 4, pp. 241–256, Dec. 1982, doi: 10.1111/j.2044-8325.1982.tb00098.x.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 17485,
+        "endIndex": 17743,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17485,
+              "endIndex": 17665,
+              "textRun": {
+                "content": "S. Schieffer, “Google Calendar for Android: Find a time for my meeting,” Google, Mountain View, California, United States, Apr. 2016. Accessed: Apr. 13, 2020. [Online]. Available: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17665,
+              "endIndex": 17741,
+              "textRun": {
+                "content": "https://blog.google/products/calendar/google-calendar-for-android-find-time/",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://blog.google/products/calendar/google-calendar-for-android-find-time/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 17741,
+              "endIndex": 17742,
+              "textRun": { "content": ".", "textStyle": {} }
+            },
+            {
+              "startIndex": 17742,
+              "endIndex": 17743,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 17743,
+        "endIndex": 17932,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17743,
+              "endIndex": 17852,
+              "textRun": {
+                "content": "N. Ducheneaut, V. Bellotti, “E-mail as habitat: an exploration of embedded personal information management,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 17852,
+              "endIndex": 17865,
+              "textRun": {
+                "content": "ACM Interact.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 17865,
+              "endIndex": 17932,
+              "textRun": {
+                "content": ", vol. 8, no. 5, pp. 30–38, Sep. 2001, doi: 10.1145/382899.383305.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 17932,
+        "endIndex": 18119,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17932,
+              "endIndex": 18028,
+              "textRun": {
+                "content": "A. de Barcelos Silva et al., “Intelligent personal assistants: A systematic literature review,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18028,
+              "endIndex": 18051,
+              "textRun": {
+                "content": "Expert Syst. with Appl.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 18051,
+              "endIndex": 18119,
+              "textRun": {
+                "content": ", vol. 147, no. 113193, Jun. 2020, doi: 10.1016/j.eswa.2020.113193.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 18119,
+        "endIndex": 18395,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18119,
+              "endIndex": 18266,
+              "textRun": {
+                "content": "J. Kiseleva, K. Williams, A. Hassan Awadallah, A.C. Crook, I. Zitouni, T. Anastasakos, “Predicting user satisfaction with intelligent assistants,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18266,
+              "endIndex": 18330,
+              "textRun": {
+                "content": "Proc. 39th Int. ACM SIGIR Conf. Res. and Develop. Inf. Retrieval",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 18330,
+              "endIndex": 18395,
+              "textRun": {
+                "content": ", ACM Press, pp. 45–54, Jul. 2016, doi: 10.1145/2911451.2911521.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 18395,
+        "endIndex": 18586,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18395,
+              "endIndex": 18511,
+              "textRun": {
+                "content": "J. F. Kelley, “An iterative design methodology for user-friendly natural language office information applications,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18511,
+              "endIndex": 18519,
+              "textRun": {
+                "content": "ACM TiiS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 18519,
+              "endIndex": 18586,
+              "textRun": {
+                "content": ", vol. 2, no. 1, pp. 26-41, Jan. 1984, doi: 10.1145/357417.357420.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      },
+      {
+        "startIndex": 18586,
+        "endIndex": 18774,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18586,
+              "endIndex": 18684,
+              "textRun": {
+                "content": "G. Linden, B. Smith, J. York, “Amazon.com recommendations: item-to-item collaborative filtering,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18684,
+              "endIndex": 18705,
+              "textRun": {
+                "content": "IEEE Internet Comput.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 18705,
+              "endIndex": 18774,
+              "textRun": {
+                "content": ", vol. 7, no. 1, pp. 76–80, Jan 2003, doi: 10.1109/MIC.2003.1167344.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 18774,
+        "endIndex": 18954,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18774,
+              "endIndex": 18880,
+              "textRun": {
+                "content": "C. A. Gomez-Uribe, N. Hunt, “The Netflix Recommender System: Algorithms, Business Value, and Innovation,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18880,
+              "endIndex": 18888,
+              "textRun": {
+                "content": "ACM TMIS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 18888,
+              "endIndex": 18953,
+              "textRun": {
+                "content": ", vol. 6, no. 2, pp. 13.1–13.19, Dec. 2015, doi: 10.1145/2843948.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18953,
+              "endIndex": 18954,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 18954,
+        "endIndex": 19190,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 18954,
+              "endIndex": 19094,
+              "textRun": {
+                "content": "G. Adomavičius, A. Tuzhilin, “Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19094,
+              "endIndex": 19122,
+              "textRun": {
+                "content": "IEEE Trans. Knowl. Data Eng.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 19122,
+              "endIndex": 19190,
+              "textRun": {
+                "content": ", vol. 17, no. 6, pp. 734–749, Jun. 2005, doi:10.1109/TKDE.2005.99.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 19190,
+        "endIndex": 19425,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19190,
+              "endIndex": 19345,
+              "textRun": {
+                "content": "G. Adomavičius, R. Sankaranarayanan, S. Sen, A. Tuzhilin, “Incorporating contextual information in recommender systems using a multidimensional approach,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19345,
+              "endIndex": 19353,
+              "textRun": {
+                "content": "ACM TiiS",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 19353,
+              "endIndex": 19425,
+              "textRun": {
+                "content": ", vol. 23, no. 1, pp. 103–145, Jan. 2005, doi: 10.1145/1055709.1055714.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 19425,
+        "endIndex": 19626,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19425,
+              "endIndex": 19524,
+              "textRun": {
+                "content": "A. Zunino, M. Campo, “Chronos: A multi-agent system for distributed automatic meeting scheduling,” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19524,
+              "endIndex": 19547,
+              "textRun": {
+                "content": "Expert Syst. with Appl.",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 19547,
+              "endIndex": 19626,
+              "textRun": {
+                "content": ", vol. 36, no. 3.2, pp. 7011–7018, Apr. 2009, doi: 10.1016/j.eswa.2008.08.024.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": { "listId": "kix.szki8a3am8qt", "textStyle": {} }
+        }
+      },
+      {
+        "startIndex": 19626,
+        "endIndex": 19780,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19626,
+              "endIndex": 19720,
+              "textRun": {
+                "content": "B. Desruisseaux, “Internet Calendaring and Scheduling Core Object Specification (iCalendar),” ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19720,
+              "endIndex": 19744,
+              "textRun": {
+                "content": "Internet Eng. Task Force",
+                "textStyle": { "italic": true }
+              }
+            },
+            {
+              "startIndex": 19744,
+              "endIndex": 19779,
+              "textRun": {
+                "content": ", Sep. 2009, doi: 10.17487/RFC5545.",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 19779,
+              "endIndex": 19780,
+              "textRun": { "content": "\n", "textStyle": {} }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "lineSpacing": 115,
+            "direction": "LEFT_TO_RIGHT",
+            "spacingMode": "NEVER_COLLAPSE",
+            "spaceBelow": { "magnitude": 10, "unit": "PT" },
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" }
+          },
+          "bullet": {
+            "listId": "kix.szki8a3am8qt",
+            "textStyle": { "underline": false }
+          }
+        }
+      }
+    ]
+  },
+  "headers": {
+    "kix.mqyj9mvacflx": {
+      "headerId": "kix.mqyj9mvacflx",
+      "content": [
+        {
+          "endIndex": 1,
+          "paragraph": {
+            "elements": [
+              { "endIndex": 1, "textRun": { "content": "\n", "textStyle": {} } }
+            ],
+            "paragraphStyle": {
+              "namedStyleType": "NORMAL_TEXT",
+              "direction": "LEFT_TO_RIGHT"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "footers": {
+    "kix.89p8m3hbm4qx": {
+      "footerId": "kix.89p8m3hbm4qx",
+      "content": [
+        {
+          "endIndex": 1,
+          "paragraph": {
+            "elements": [
+              {
+                "endIndex": 1,
+                "textRun": {
+                  "content": "\n",
+                  "textStyle": { "fontSize": { "magnitude": 10, "unit": "PT" } }
+                }
+              }
+            ],
+            "paragraphStyle": {
+              "namedStyleType": "NORMAL_TEXT",
+              "lineSpacing": 100,
+              "direction": "LEFT_TO_RIGHT",
+              "spaceAbove": { "unit": "PT" }
+            }
+          }
+        },
+        {
+          "startIndex": 1,
+          "endIndex": 128,
+          "table": {
+            "rows": 1,
+            "columns": 2,
+            "tableRows": [
+              {
+                "startIndex": 2,
+                "endIndex": 127,
+                "tableCells": [
+                  {
+                    "startIndex": 3,
+                    "endIndex": 114,
+                    "content": [
+                      {
+                        "startIndex": 4,
+                        "endIndex": 114,
+                        "paragraph": {
+                          "elements": [
+                            {
+                              "startIndex": 4,
+                              "endIndex": 97,
+                              "textRun": {
+                                "content": "This work is licensed under a Creative Commons Attribution 4.0 International License. © 2020 ",
+                                "textStyle": {
+                                  "foregroundColor": {
+                                    "color": {
+                                      "rgbColor": {
+                                        "red": 0.7176471,
+                                        "green": 0.7176471,
+                                        "blue": 0.7176471
+                                      }
+                                    }
+                                  },
+                                  "fontSize": { "magnitude": 9, "unit": "PT" }
+                                }
+                              }
+                            },
+                            {
+                              "startIndex": 97,
+                              "endIndex": 112,
+                              "textRun": {
+                                "content": "Anand Chowdhary",
+                                "textStyle": {
+                                  "underline": true,
+                                  "foregroundColor": {
+                                    "color": {
+                                      "rgbColor": {
+                                        "red": 0.7176471,
+                                        "green": 0.7176471,
+                                        "blue": 0.7176471
+                                      }
+                                    }
+                                  },
+                                  "fontSize": { "magnitude": 9, "unit": "PT" },
+                                  "link": {
+                                    "url": "https://anandchowdhary.com"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "startIndex": 112,
+                              "endIndex": 114,
+                              "textRun": {
+                                "content": ".\n",
+                                "textStyle": {
+                                  "foregroundColor": {
+                                    "color": {
+                                      "rgbColor": {
+                                        "red": 0.7176471,
+                                        "green": 0.7176471,
+                                        "blue": 0.7176471
+                                      }
+                                    }
+                                  },
+                                  "fontSize": { "magnitude": 9, "unit": "PT" }
+                                }
+                              }
+                            }
+                          ],
+                          "paragraphStyle": {
+                            "namedStyleType": "NORMAL_TEXT",
+                            "lineSpacing": 100,
+                            "direction": "LEFT_TO_RIGHT",
+                            "spaceAbove": { "unit": "PT" },
+                            "avoidWidowAndOrphan": false
+                          }
+                        }
+                      }
+                    ],
+                    "tableCellStyle": {
+                      "rowSpan": 1,
+                      "columnSpan": 1,
+                      "backgroundColor": {},
+                      "paddingLeft": { "unit": "PT" },
+                      "paddingRight": { "unit": "PT" },
+                      "paddingTop": { "unit": "PT" },
+                      "paddingBottom": { "unit": "PT" },
+                      "contentAlignment": "MIDDLE"
+                    }
+                  },
+                  {
+                    "startIndex": 114,
+                    "endIndex": 127,
+                    "content": [
+                      {
+                        "startIndex": 115,
+                        "endIndex": 127,
+                        "paragraph": {
+                          "elements": [
+                            {
+                              "startIndex": 115,
+                              "endIndex": 120,
+                              "textRun": { "content": "Page ", "textStyle": {} }
+                            },
+                            {
+                              "startIndex": 120,
+                              "endIndex": 121,
+                              "autoText": {
+                                "type": "PAGE_NUMBER",
+                                "textStyle": {}
+                              }
+                            },
+                            {
+                              "startIndex": 121,
+                              "endIndex": 125,
+                              "textRun": { "content": " of ", "textStyle": {} }
+                            },
+                            {
+                              "startIndex": 125,
+                              "endIndex": 126,
+                              "autoText": {
+                                "type": "PAGE_COUNT",
+                                "textStyle": {}
+                              }
+                            },
+                            {
+                              "startIndex": 126,
+                              "endIndex": 127,
+                              "textRun": { "content": "\n", "textStyle": {} }
+                            }
+                          ],
+                          "paragraphStyle": {
+                            "namedStyleType": "NORMAL_TEXT",
+                            "alignment": "END",
+                            "lineSpacing": 100,
+                            "direction": "LEFT_TO_RIGHT",
+                            "spaceAbove": { "unit": "PT" },
+                            "avoidWidowAndOrphan": false
+                          }
+                        }
+                      }
+                    ],
+                    "tableCellStyle": {
+                      "rowSpan": 1,
+                      "columnSpan": 1,
+                      "backgroundColor": {},
+                      "paddingLeft": { "unit": "PT" },
+                      "paddingRight": { "unit": "PT" },
+                      "paddingTop": { "unit": "PT" },
+                      "paddingBottom": { "unit": "PT" },
+                      "contentAlignment": "MIDDLE"
+                    }
+                  }
+                ],
+                "tableRowStyle": { "minRowHeight": { "unit": "PT" } }
+              }
+            ],
+            "tableStyle": {
+              "tableColumnProperties": [
+                {
+                  "widthType": "FIXED_WIDTH",
+                  "width": { "magnitude": 249.75, "unit": "PT" }
+                },
+                {
+                  "widthType": "FIXED_WIDTH",
+                  "width": { "magnitude": 218.25, "unit": "PT" }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "startIndex": 128,
+          "endIndex": 129,
+          "paragraph": {
+            "elements": [
+              {
+                "startIndex": 128,
+                "endIndex": 129,
+                "textRun": {
+                  "content": "\n",
+                  "textStyle": { "fontSize": { "magnitude": 1, "unit": "PT" } }
+                }
+              }
+            ],
+            "paragraphStyle": {
+              "namedStyleType": "NORMAL_TEXT",
+              "lineSpacing": 100,
+              "direction": "LEFT_TO_RIGHT"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "documentStyle": {
+    "background": { "color": {} },
+    "defaultHeaderId": "kix.mqyj9mvacflx",
+    "defaultFooterId": "kix.89p8m3hbm4qx",
+    "pageNumberStart": 1,
+    "marginTop": { "magnitude": 54, "unit": "PT" },
+    "marginBottom": { "unit": "PT" },
+    "marginRight": { "magnitude": 72, "unit": "PT" },
+    "marginLeft": { "magnitude": 72, "unit": "PT" },
+    "pageSize": {
+      "height": { "magnitude": 792, "unit": "PT" },
+      "width": { "magnitude": 612, "unit": "PT" }
+    },
+    "marginHeader": { "unit": "PT" },
+    "marginFooter": { "magnitude": 21.599999999999998, "unit": "PT" },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": { "color": { "rgbColor": {} } },
+          "fontSize": { "magnitude": 12, "unit": "PT" },
+          "weightedFontFamily": { "fontFamily": "Proxima Nova", "weight": 400 },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 130,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "NEVER_COLLAPSE",
+          "spaceAbove": { "magnitude": 10, "unit": "PT" },
+          "spaceBelow": { "unit": "PT" },
+          "borderBetween": {
+            "color": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": { "unit": "PT" },
+            "padding": { "unit": "PT" },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": { "unit": "PT" },
+          "indentStart": { "unit": "PT" },
+          "indentEnd": { "unit": "PT" },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": { "backgroundColor": {} }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": { "fontSize": { "magnitude": 18, "unit": "PT" } },
+        "paragraphStyle": {
+          "headingId": "h.wb48ixm84oyf",
+          "namedStyleType": "HEADING_1",
+          "direction": "LEFT_TO_RIGHT"
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": true,
+          "fontSize": { "magnitude": 13, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "headingId": "h.dvt9xtq0xyj9",
+          "namedStyleType": "HEADING_2",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 20, "unit": "PT" }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.54901963,
+                "green": 0.44705883,
+                "blue": 0.32156864
+              }
+            }
+          },
+          "fontSize": { "magnitude": 12, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "headingId": "h.pclrljc3kfrk",
+          "namedStyleType": "HEADING_3",
+          "direction": "LEFT_TO_RIGHT",
+          "indentFirstLine": { "magnitude": -0.75, "unit": "PT" },
+          "indentStart": { "magnitude": -0.75, "unit": "PT" }
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "underline": true,
+          "foregroundColor": {
+            "color": { "rgbColor": { "red": 0.4, "green": 0.4, "blue": 0.4 } }
+          },
+          "fontSize": { "magnitude": 11, "unit": "PT" },
+          "weightedFontFamily": { "fontFamily": "Trebuchet MS", "weight": 400 }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 8, "unit": "PT" },
+          "spaceBelow": { "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": { "rgbColor": { "red": 0.4, "green": 0.4, "blue": 0.4 } }
+          },
+          "fontSize": { "magnitude": 11, "unit": "PT" },
+          "weightedFontFamily": { "fontFamily": "Trebuchet MS", "weight": 400 }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 8, "unit": "PT" },
+          "spaceBelow": { "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": { "rgbColor": { "red": 0.4, "green": 0.4, "blue": 0.4 } }
+          },
+          "fontSize": { "magnitude": 11, "unit": "PT" },
+          "weightedFontFamily": { "fontFamily": "Trebuchet MS", "weight": 400 }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "magnitude": 8, "unit": "PT" },
+          "spaceBelow": { "unit": "PT" },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": { "fontSize": { "magnitude": 24, "unit": "PT" } },
+        "paragraphStyle": {
+          "headingId": "h.bud8aattcpbp",
+          "namedStyleType": "TITLE",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": { "unit": "PT" },
+          "spaceBelow": { "magnitude": 25, "unit": "PT" }
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "foregroundColor": {
+            "color": { "rgbColor": { "red": 0.4, "green": 0.4, "blue": 0.4 } }
+          },
+          "fontSize": { "magnitude": 14, "unit": "PT" }
+        },
+        "paragraphStyle": {
+          "headingId": "h.enxdv5p1e3a7",
+          "namedStyleType": "SUBTITLE",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT"
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.2glxh37s5oph": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.aszhgh4nxjjm": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.vmfbvidouu1": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.ti1j613g33f5": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.pk6zqi2qg43a": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.szki8a3am8qt": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "[%0]",
+            "indentFirstLine": { "unit": "PT" },
+            "indentStart": { "magnitude": 22.5, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "[%1]",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "[%2]",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "[%3]",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "[%4]",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "[%5]",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "[%6]",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "[%7]",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "[%8]",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.jb3xx0bjveot": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.rhgcddgzgqbq": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%0.",
+            "indentFirstLine": { "magnitude": 18, "unit": "PT" },
+            "indentStart": { "magnitude": 36, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%1.",
+            "indentFirstLine": { "magnitude": 54, "unit": "PT" },
+            "indentStart": { "magnitude": 72, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%2.",
+            "indentFirstLine": { "magnitude": 90, "unit": "PT" },
+            "indentStart": { "magnitude": 108, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%3.",
+            "indentFirstLine": { "magnitude": 126, "unit": "PT" },
+            "indentStart": { "magnitude": 144, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%4.",
+            "indentFirstLine": { "magnitude": 162, "unit": "PT" },
+            "indentStart": { "magnitude": 180, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%5.",
+            "indentFirstLine": { "magnitude": 198, "unit": "PT" },
+            "indentStart": { "magnitude": 216, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "DECIMAL",
+            "glyphFormat": "%6.",
+            "indentFirstLine": { "magnitude": 234, "unit": "PT" },
+            "indentStart": { "magnitude": 252, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "ALPHA",
+            "glyphFormat": "%7.",
+            "indentFirstLine": { "magnitude": 270, "unit": "PT" },
+            "indentStart": { "magnitude": 288, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "END",
+            "glyphType": "ROMAN",
+            "glyphFormat": "%8.",
+            "indentFirstLine": { "magnitude": 306, "unit": "PT" },
+            "indentStart": { "magnitude": 324, "unit": "PT" },
+            "textStyle": { "underline": false },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "AEUikcuUP6tYsGm6aI6-7qe2kusn3YHtLoFhXimF1M4dE3cGDTSMaTKEkvCu56tMnZl1Tq0rH9riXKBa29yeWJY",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1Nwbt6I1YF6a20t3e3dlz5ID-zVSB2amYHth3YVdtTJQ"
+}
