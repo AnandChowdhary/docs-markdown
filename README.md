@@ -51,12 +51,6 @@ Build TypeScript:
 npm run build
 ```
 
-Run unit tests and view coverage:
-
-```bash
-npm run test-without-reporting
-```
-
 ## 📄 License
 
 [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com)
