@@ -30,7 +30,7 @@ revisionId: ${file.revisionId}
           if (styleType === "TITLE") {
             text += `# ${content(element)}`;
           } else if (styleType === "SUBTITLE") {
-            text += `_${content(element)}_`;
+            text += `_${(content(element) || "").trim()}_`;
           } else if (styleType === "HEADING_1") {
             text += `## ${content(element)}`;
           } else if (styleType === "HEADING_2") {
@@ -78,7 +78,6 @@ revisionId: ${file.revisionId}
         linesToDelete.push(index);
     }
   });
-  console.log(linesToDelete);
   text = text
     .split("\n")
     .filter((_, i) => !linesToDelete.includes(i))
