@@ -15,7 +15,7 @@
     [
       "@semantic-release/git",
       {
-        "message": ":bookmark: v${nextRelease.version} [skip ci]\n\nhttps://github.com/AnandChowdhary/node.ts/releases/tag/${nextRelease.gitTag}"
+        "message": ":bookmark: v${nextRelease.version} [skip ci]\n\nhttps://github.com/AnandChowdhary/docs-markdown/releases/tag/${nextRelease.gitTag}"
       }
     ]
   ]
