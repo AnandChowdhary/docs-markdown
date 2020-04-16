@@ -39,7 +39,7 @@ const file = await docs.documents.get({
   auth: oauth2Client,
 });
 
-const markdown = googleDocsToMarkdown(file);
+const markdown = googleDocsToMarkdown(file.data);
 writeFileSync("file.md", markdown);
 ```
 
