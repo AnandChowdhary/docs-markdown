@@ -25,7 +25,24 @@ Install the package from [npm](https://www.npmjs.com/package/docs-markdown):
 npm install docs-markdown
 ```
 
-Import and use:
+### API
+
+The `fetchGoogleDocsFiles` helper can download a document from Google Docs and save it as a markdown file:
+
+```ts
+import { fetchGoogleDocsFiles } from "docs-markdown";
+
+// Google Docs document ID
+await fetchGoogleDocsFiles(["1UEUrJ98RXu9BNcFj3pMgiUALQpjIb8Y-gNu-YhlYvFQ"]);
+
+// Google Docs document ID and file name
+await fetchGoogleDocsFiles(["1UEUrJ98RXu9BNcFj3pMgiUALQpjIb8Y-gNu-YhlYvFQ:filename.md"]);
+
+// Multiple Google Docs documents (comma-separated string)
+await fetchGoogleDocsFiles(["documentId1", "documentId2", "documentId3"]);
+```
+
+You can also use the `googleDocsToMarkdown` function to manually convert documents:
 
 ```ts
 import { googleDocsToMarkdown } from "docs-markdown";
@@ -43,6 +60,35 @@ const markdown = googleDocsToMarkdown(file.data);
 writeFileSync("file.md", markdown);
 ```
 
+### CLI
+
+Fetch files and save them as markdown:
+
+```bash
+# Google Docs document ID
+docs-markdown fetch "1UEUrJ98RXu9BNcFj3pMgiUALQpjIb8Y-gNu-YhlYvFQ"
+
+# Google Docs document ID with file name
+docs-markdown fetch "1UEUrJ98RXu9BNcFj3pMgiUALQpjIb8Y-gNu-YhlYvFQ:filename.md"
+
+# Multiple Google Docs documents
+docs-markdown fetch "documentId1, documentId2, documentId3"
+
+# Convert a JSON document to markdown
+docs-markdown convert "path/to/file.json"
+```
+
+### Authentication
+
+The following environment variables are required to fetch files from Google Docs. They are not required when converting JSON documents to markdown:
+
+- `GOOGLE_DOCS_CLIENT_ID`
+- `GOOGLE_DOCS_CLIENT_SECRET`
+- `GOOGLE_DOCS_ACCESS`
+- `GOOGLE_DOCS_REFRESH`
+
+To learn how to create a client ID and secret, read the article [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2). Once you've created them, create an access token and a refresh token, use the [OAuth 2.0 Playground](https://developers.google.com/oauthplayground/) with your client ID and secret.
+
 ## ⭐️ Features
 
 - [x] Paragraphs
@@ -53,6 +99,44 @@ writeFileSync("file.md", markdown);
 - [ ] Images
 - [ ] Tables
 - [ ] Header, footer
+
+## 🍳 Recipes
+
+### GitHub Actions + Google Docs CI
+
+If you want to sync your Google Docs documents as markdown files to a GitHub repository, you can use this GitHub Actions workflow that runs every day, fetches your documents, and commit them to your repo. Make sure you have all the required environment variables stored as GitHub Secrets:
+
+```yml
+name: Google Docs
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  release:
+    name: Fetch Google Docs
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Download files
+        run: npx docs-markdown fetch "1UEUrJ98RXu9BNcFj3pMgiUALQpjIb8Y-gNu-YhlYvFQ"
+        env:
+          GOOGLE_DOCS_ACCESS: ${{ secrets.GOOGLE_DOCS_ACCESS }}
+          GOOGLE_DOCS_REFRESH: ${{ secrets.GOOGLE_DOCS_REFRESH }}
+          GOOGLE_DOCS_CLIENT_ID: ${{ secrets.GOOGLE_DOCS_CLIENT_ID }}
+          GOOGLE_DOCS_CLIENT_SECRET: ${{ secrets.GOOGLE_DOCS_CLIENT_SECRET }}
+      - name: Commit new data
+        uses: stefanzweifel/git-auto-commit-action@v4.1.1
+        with:
+          commit_message: "Update Google Docs file"
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>
+```
 
 ## 👩‍💻 Development
 
