@@ -37,14 +37,14 @@
   "dependencies": {},
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
-    "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.2",
-    "coveralls": "^3.0.9",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "coveralls": "^3.1.0",
     "googleapis": "^49.0.0",
-    "jest": "^25.1.0",
-    "semantic-release": "^17.0.4",
+    "jest": "^25.4.0",
+    "semantic-release": "^17.0.7",
     "semantic-release-gitmoji": "^1.3.3",
-    "ts-jest": "^25.2.1",
+    "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   },
   "jest": {
