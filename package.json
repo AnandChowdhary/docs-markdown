@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Opinionated starter for Node.js + TypeScript libraries",
   "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "bin": "dist/cli.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
