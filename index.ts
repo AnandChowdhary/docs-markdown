@@ -23,10 +23,10 @@ export const fetchGoogleDocsFiles = async (files: string[]) => {
         documentId: documentId.split(":")[0],
         auth: oauth2Client,
       });
-      if (!result.data.title) throw new Error("Title not found");
       const title = documentId.includes(":")
         ? documentId.split(":")[1]
         : `${result.data.title}.md`;
+      if (!title) throw new Error("Title not found");
       await fs.writeFile(join(".", title), googleDocsToMarkdown(result.data));
       console.log("Downloaded document", result.data.title);
     } catch (error) {
