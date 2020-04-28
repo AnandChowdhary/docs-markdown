@@ -14,7 +14,7 @@ oauth2Client.setCredentials({
 });
 const docs = google.docs("v1");
 
-export const fetchGoogleDocsFiles = async (files: string) => {
+export const fetchGoogleDocsFiles = async (files: string[]) => {
   for await (const documentId of files) {
     console.log("\nDownloading document", documentId);
     try {
