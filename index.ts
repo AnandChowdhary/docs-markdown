@@ -1,7 +1,8 @@
 import { google, docs_v1 } from "googleapis";
 import { join } from "path";
-import _fs from "fs";
-const fs = _fs.promises;
+import { config } from "dotenv";
+import { promises as fs } from "fs";
+config();
 
 const oauth2Client = new google.auth.OAuth2(
   process.env.GOOGLE_DOCS_CLIENT_ID,
