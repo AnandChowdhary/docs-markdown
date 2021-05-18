@@ -97,7 +97,7 @@ To learn how to create a client ID and secret, read the article [Using OAuth 2.0
 - [x] Lists
 - [x] Links
 - [ ] Images
-- [ ] Tables
+- [x] Tables
 - [ ] Header, footer
 
 ## 🍳 Recipes
