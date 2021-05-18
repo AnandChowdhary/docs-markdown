@@ -48,9 +48,13 @@ revisionId: ${file.revisionId}
      * Tables
      */
     if (item.table?.tableRows) {
+      const rows = item.table.tableRows;
+      const firstRowCells = rows[0]?.tableCells;
       // Make a blank header
-      text += "||\n|-\n";
-      item.table.tableRows.forEach(({ tableCells }) => {
+      text += `|${firstRowCells?.map(() => "").join("|")}|\n|${firstRowCells
+        ?.map(() => "-")
+        .join("|")}|\n`;
+      rows.forEach(({ tableCells }) => {
         const textRows: any[] = [];
         tableCells?.forEach(({ content }) => {
           content?.forEach(({ paragraph }) => {
@@ -58,13 +62,15 @@ revisionId: ${file.revisionId}
               paragraph?.paragraphStyle?.namedStyleType || undefined;
 
             textRows.push(
-              paragraph?.elements?.map((element) =>
-                styleElement(element, styleType)?.replace(/\s+/g, "").trim()
-              )
+              paragraph?.elements
+                ?.map((element) =>
+                  styleElement(element, styleType)?.replace(/\s+/g, "").trim()
+                )
+                .join("")
             );
           });
         });
-        text += `| ${textRows.join(" | ")} |\n`;
+        text += `|${textRows.join("|")}|\n`;
       });
     }
 
