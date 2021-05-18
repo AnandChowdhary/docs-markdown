@@ -43,16 +43,42 @@ revisionId: ${file.revisionId}
 ---
 
 `;
-  ((file.body || {}).content || []).forEach((item) => {
+  file.body?.content?.forEach((item) => {
+    /**
+     * Tables
+     */
+    if (item.table?.tableRows) {
+      // Make a blank header
+      text += "||\n|-\n";
+      item.table.tableRows.forEach(({ tableCells }) => {
+        const textRows: any[] = [];
+        tableCells?.forEach(({ content }) => {
+          content?.forEach(({ paragraph }) => {
+            const styleType =
+              paragraph?.paragraphStyle?.namedStyleType || undefined;
+
+            textRows.push(
+              paragraph?.elements?.map((element) =>
+                styleElement(element, styleType)?.replace(/\s+/g, "").trim()
+              )
+            );
+          });
+        });
+        text += `| ${textRows.join(" | ")} |\n`;
+      });
+    }
+
+    /**
+     * Paragraphs and lists
+     */
     if (item.paragraph && item.paragraph.elements) {
-      const styleType = ((item.paragraph || {}).paragraphStyle || {})
-        .namedStyleType;
-      const bullet = (item.paragraph || {}).bullet || {};
-      if (bullet.listId) {
-        const listDetails = (file.lists || {})[bullet.listId];
+      const styleType =
+        item?.paragraph?.paragraphStyle?.namedStyleType || undefined;
+      const bullet = item.paragraph?.bullet;
+      if (bullet?.listId) {
+        const listDetails = file.lists?.[bullet.listId];
         const glyphFormat =
-          (((listDetails.listProperties || {}).nestingLevels || [])[0] || {})
-            .glyphFormat || "";
+          listDetails?.listProperties?.nestingLevels?.[0].glyphFormat || "";
         const padding = "  ".repeat(bullet.nestingLevel || 0);
         if (["[%0]", "%0."].includes(glyphFormat)) {
           text += `${padding}1. `;
@@ -62,43 +88,17 @@ revisionId: ${file.revisionId}
       }
       item.paragraph.elements.forEach((element) => {
         if (element.textRun && content(element) && content(element) !== "\n") {
-          if (styleType === "TITLE") {
-            text += `# ${content(element)}`;
-          } else if (styleType === "SUBTITLE") {
-            text += `_${(content(element) || "").trim()}_`;
-          } else if (styleType === "HEADING_1") {
-            text += `## ${content(element)}`;
-          } else if (styleType === "HEADING_2") {
-            text += `### ${content(element)}`;
-          } else if (styleType === "HEADING_3") {
-            text += `#### ${content(element)}`;
-          } else if (styleType === "HEADING_4") {
-            text += `##### ${content(element)}`;
-          } else if (styleType === "HEADING_5") {
-            text += `###### ${content(element)}`;
-          } else if (styleType === "HEADING_6") {
-            text += `####### ${content(element)}`;
-          } else if (
-            (element.textRun.textStyle || {}).bold &&
-            (element.textRun.textStyle || {}).italic
-          ) {
-            text += `**_${content(element)}_**`;
-          } else if ((element.textRun.textStyle || {}).italic) {
-            text += `_${content(element)}_`;
-          } else if ((element.textRun.textStyle || {}).bold) {
-            text += `**${content(element)}**`;
-          } else {
-            text += content(element);
-          }
+          text += styleElement(element, styleType);
         }
       });
-      text += bullet.listId
+      text += bullet?.listId
         ? (text.split("\n").pop() || "").trim().endsWith("\n")
           ? ""
           : "\n"
         : "\n\n";
     }
   });
+
   const lines = text.split("\n");
   const linesToDelete: number[] = [];
   lines.forEach((line, index) => {
@@ -120,10 +120,46 @@ revisionId: ${file.revisionId}
   return text.replace(/\n\s*\n\s*\n/g, "\n\n") + "\n";
 };
 
-const content = (element: docs_v1.Schema$ParagraphElement) => {
-  const textRun = element.textRun || {};
-  const text = (element.textRun || {}).content;
-  if ((textRun.textStyle || {}).link)
-    return `[${text}](${((textRun.textStyle || {}).link || {}).url})`;
-  return text;
+const styleElement = (
+  element: docs_v1.Schema$ParagraphElement,
+  styleType?: string
+): string | undefined => {
+  if (styleType === "TITLE") {
+    return `# ${content(element)}`;
+  } else if (styleType === "SUBTITLE") {
+    return `_${(content(element) || "").trim()}_`;
+  } else if (styleType === "HEADING_1") {
+    return `## ${content(element)}`;
+  } else if (styleType === "HEADING_2") {
+    return `### ${content(element)}`;
+  } else if (styleType === "HEADING_3") {
+    return `#### ${content(element)}`;
+  } else if (styleType === "HEADING_4") {
+    return `##### ${content(element)}`;
+  } else if (styleType === "HEADING_5") {
+    return `###### ${content(element)}`;
+  } else if (styleType === "HEADING_6") {
+    return `####### ${content(element)}`;
+  } else if (
+    element.textRun?.textStyle?.bold &&
+    element.textRun?.textStyle?.italic
+  ) {
+    return `**_${content(element)}_**`;
+  } else if (element.textRun?.textStyle?.italic) {
+    return `_${content(element)}_`;
+  } else if (element.textRun?.textStyle?.bold) {
+    return `**${content(element)}**`;
+  }
+
+  return content(element);
+};
+
+const content = (
+  element: docs_v1.Schema$ParagraphElement
+): string | undefined => {
+  const textRun = element?.textRun;
+  const text = textRun?.content;
+  if (textRun?.textStyle?.link?.url)
+    return `[${text}]${textRun.textStyle.link.url}`;
+  return text || undefined;
 };
