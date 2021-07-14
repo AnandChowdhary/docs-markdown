@@ -49,7 +49,11 @@ revisionId: ${file.revisionId}
      */
     if (item.table?.tableRows) {
       // Make a blank header
-      text += "||\n|-\n";
+        const cells = item.table.tableRows[0]?.tableCells;
+        // Make a blank header
+        text += `|${cells?.map(() => "").join("|")}|\n|${cells
+          ?.map(() => "-")
+          .join("|")}|\n`;
       item.table.tableRows.forEach(({ tableCells }) => {
         const textRows: any[] = [];
         tableCells?.forEach(({ content }) => {
