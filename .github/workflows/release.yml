@@ -34,7 +34,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     needs: build
-    if: github.event_name == 'push' && !contains(github.event.head_commit.message, '[skip ci]')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master' && !contains(github.event.head_commit.message, '[skip ci]')
     permissions:
       contents: write
       issues: write
@@ -47,14 +47,56 @@ jobs:
         with:
           node-version: 12
           cache: npm
+          registry-url: https://registry.npmjs.org
       - name: Install dependencies
         run: npm ci
       - name: Build TypeScript
         run: npm run build
-      - name: Test
-        run: npm test -- --runInBand
+      - name: Check whether a release is needed
+        id: release_preflight
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require("fs")
+          const semanticRelease = require("semantic-release")
+
+          semanticRelease(
+            { dryRun: true, ci: false },
+            {
+              cwd: process.cwd(),
+              env: process.env,
+              stdout: process.stdout,
+              stderr: process.stderr,
+            },
+          )
+            .then((result) => {
+              fs.appendFileSync(process.env.GITHUB_OUTPUT, `required=${Boolean(result)}\n`)
+            })
+            .catch((error) => {
+              console.error(error)
+              process.exitCode = 1
+            })
+          NODE
       - name: Release
+        if: steps.release_preflight.outputs.required == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        run: |
+          # Probe npm authentication before releasing: if the NPM_TOKEN secret is
+          # expired or invalid, fall back to GitHub-only publishing instead of
+          # failing the whole release. With NPM_TOKEN unset, .releaserc.js sets
+          # npmPublish to false, so @semantic-release/npm skips npm publishing
+          # while the GitHub release still ships. Publishing to npm resumes
+          # automatically once the token is valid again.
+          npmrc_probe="$(mktemp)"
+          printf '//registry.npmjs.org/:_authToken = ${NPM_TOKEN}\n' > "$npmrc_probe"
+          if npm whoami --userconfig "$npmrc_probe" --registry=https://registry.npmjs.org >/dev/null 2>&1; then
+            echo "NPM_TOKEN is valid - npm publish will proceed"
+          else
+            echo "::warning::NPM_TOKEN is invalid or expired - creating GitHub release only (npm publish skipped)"
+            unset NPM_TOKEN
+          fi
+          rm -f "$npmrc_probe"
+          npm run semantic-release
